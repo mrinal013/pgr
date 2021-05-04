@@ -1,11 +1,11 @@
 <template>
   <div class="home">
-    <Card></Card>
+    <!-- <t-input/> -->
   </div>
 </template>
 
 <script>
-import Card from '../components/Card.vue';
+import Card from '../components/Card.vue'
 
 export default {
 
