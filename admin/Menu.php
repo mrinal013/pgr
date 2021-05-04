@@ -5,11 +5,11 @@ trait Menu {
 
     public function wp_admin_menu() {
 		$menu = add_menu_page(
-			__( 'Grid', TEXTDOMAIN ),
-			__( 'Grid', TEXTDOMAIN ),
+			__( 'Review Grid', 'pgr' ),
+			__( 'Review Grid', 'pgr' ),
 			'manage_options',
 			PAGE_SLUG,
-			[ $this, 'wp_admin_vue_cb'],
+			[ $this, 'wp_admin_vue_cb' ],
 			'dashicons-admin-customizer',
 			76
 		);

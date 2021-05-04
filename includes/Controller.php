@@ -226,7 +226,7 @@ class Controller {
 	public function dependency_error_notice() {
 		?>
 		<div class="notice notice-error">
-			<p><?php _e( 'Done!', TEXTDOMAIN ); ?></p>
+			<p><?php esc_html_e( 'Done!', 'pgr' ); ?></p>
 		</div>
 		<?php
 	}
