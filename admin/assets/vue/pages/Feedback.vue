@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Heading></Heading>
+    <t-button>Example button</t-button>
   </div>
 </template>
 
