@@ -1,10 +1,18 @@
 <template>
-    
+  <div>
+    <v-btn raised color="error">Vue</v-btn>
+  </div>
 </template>
 
 <script>
+
 export default {
-  name: 'Inspire'
+  name: 'List',
+  data () {
+    return {
+      msg: 'I am list component'
+    }
+  }
 }
 </script>
 
