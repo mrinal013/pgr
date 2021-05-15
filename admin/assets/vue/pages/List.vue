@@ -1,16 +1,13 @@
 <template>
-  <div>
-    <v-btn raised color="error">Vue</v-btn>
-  </div>
+    <Heading></Heading>
 </template>
 
 <script>
+import Heading from '../components/Heading.vue'
 export default {
   name: 'List',
-  data () {
-    return {
-      msg: 'I am list component'
-    }
+  components: {
+    Heading
   }
 }
 </script>

@@ -21,7 +21,7 @@
  * Author URI:        mrinalbd.com
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       wp-admin-vue
+ * Text Domain:       pgr
  * Domain Path:       /languages
  */
 
@@ -35,7 +35,6 @@ if ( ! defined( 'WPINC' ) ) {
  */
 define( 'PLUGIN_MAIN_FILE', __FILE__ );
 define( 'PSR_VERSION', '1.0.0' );
-define( 'TEXTDOMAIN', 'pgr');
 define( 'PAGE_SLUG', 'pgr-grid');
 
 function activation() {

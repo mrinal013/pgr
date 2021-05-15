@@ -1,17 +1,17 @@
 <template>
   <div class="home">
-    <!-- <t-input/> -->
+    <Heading></Heading>
   </div>
 </template>
 
 <script>
-import Card from '../components/Card.vue'
+// import Card from '../components/Card.vue'
+import Heading from '../components/Heading.vue'
 
 export default {
-
-  name: 'Home',
+  name: 'Feedback',
   components: {
-    Card
+    Heading
   },
 
   data () {
