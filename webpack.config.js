@@ -36,9 +36,6 @@ module.exports = {
         test: /\.js$/,
         use: [
           "babel-loader",
-          {
-            loader: 'standard-loader',
-          },
         ],
         exclude: '/node_modules/',
       },
